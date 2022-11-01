@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<a id="naver" href="https://www.naver.com">네이버로 이동</a>
+	<a id="google" href="https://google.com" target="_blank">구글로 이동</a>
+	<br>
+	<div class="lds-ripple">
+		<div></div>
+		<div></div>
+	</div>
+	<script>
+		var ldld = new ldLoader({root: '.ldld'});
+	</script>
+	<div onclick="ldld.toggle()">
+		Toggle Loader
+	</div>
+	<img class="ldld" src="moonwalking.svg">
+	<div
+  style="background:url(background.svg)">
+</div>
+</body>
+
+</html>

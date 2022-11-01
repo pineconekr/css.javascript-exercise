@@ -1,0 +1,9 @@
+#image {
+	background: url('123.png');
+	background-repeat: no-repeat center center fixed;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}

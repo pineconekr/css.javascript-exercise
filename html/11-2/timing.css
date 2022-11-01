@@ -1,0 +1,36 @@
+#container div {
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin: 5px 10px;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	transition-duration: 3s;
+}
+
+#container:hover div {
+	height: 400px;
+}
+
+#ease {
+	transition-timing-function: ease;
+}
+
+#linear {
+	transition-timing-function: linear;
+}
+
+#ease-in {
+	transition-timing-function: ease-in;
+}
+
+#ease-out {
+	transition-timing-function: ease;
+}
+
+#ease-in-out {
+	transition-timing-function: ease-in-out;
+}

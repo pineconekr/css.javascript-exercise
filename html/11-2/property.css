@@ -1,0 +1,28 @@
+#container {
+	width: 1000px;
+	height: 1000px;
+	margin-left: 100px;
+}
+
+.wrapper {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 20px 30px;
+}
+
+.wrapper div {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+}
+
+#prop {
+	transition-property: all;
+	transition-duration: 2s;
+}
+
+#prop:hover {
+	width: 400px;
+	height: 400px;
+}
