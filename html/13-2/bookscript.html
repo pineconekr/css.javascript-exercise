@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SO FUNNY GUGUDAN</title>
+</head>
+<style>
+	h2 {
+		text-align: center;
+		padding: 30px;
+	}
+
+	div {
+		border: 1px solid black;
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: antiquewhite;
+		margin: 30px;
+		margin-left: 50px;
+		text-align: center;
+	}
+</style>
+
+<body>
+	<h2>구구단을 외자</h2>
+	<script>
+		var i, j;
+
+		for (i = 1; i <= 9; i++) {
+			document.write("<div>");
+			document.write("<h3>" + i + "단</h3>");
+			for (j = 1; j <= 9; j++) {
+				document.write(i + " X " + j + " = " + i * j + "<br>");
+			}
+			document.write("</div>");
+
+			if (i === 6) break;
+		}
+	</script>
+</body>
+
+</html>

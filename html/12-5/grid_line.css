@@ -1,0 +1,30 @@
+#container {
+	width: 700px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 100px);
+	grid-template-areas: "items1 items1" "items2 items3 items3" "items2 . items4";
+}
+
+.items1 {
+	background-color: blue;
+	grid-column: 1/4;
+	/* 그리드의 줄을 1부터 4까지 지정하겠다 */
+}
+
+.items2 {
+	background-color: green;
+	grid-row: 2/4;
+}
+
+.items3 {
+	background-color: orange;
+	grid-column: 2/4;
+	grid-row-start: 2;
+	grid-column-start: 2;
+}
+
+.items4 {
+	background-color: yellow;
+	grid-column: 3/4;
+}
